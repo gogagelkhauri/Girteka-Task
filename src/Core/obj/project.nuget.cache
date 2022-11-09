@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5fRh8qviQpkbFVKSzY0fba19l1wn3LHJ7/l6rwJOllrJBwtIJnhiKGJ0i16keuw78CJE0sVH87TfiCVNdfd+DA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gogag\\Documents\\dev\\tasks\\Girteka-Task\\src\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gogag\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\gogag\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\gogag\\.nuget\\packages\\csvhelper\\30.0.0\\csvhelper.30.0.0.nupkg.sha512",
+    "C:\\Users\\gogag\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

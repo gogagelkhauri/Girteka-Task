@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+   api:
+       build:
+           context: .
+           dockerfile: src/API/Dockerfile
+       ports:
+           - "80"
+           - "8090:443"
+       depends_on:
+            - sqlserver
+       environment:
+            - TZ="Asia/Tbilisi"
+       
+
+   sqlserver:
+       image: "mcr.microsoft.com/mssql/server:2022-latest"
+       ports:
+           - "1433:1433"
+       environment:
+           SA_PASSWORD: "S3cur3PassW0rd"
+           ACCEPT_EULA: "Y"
